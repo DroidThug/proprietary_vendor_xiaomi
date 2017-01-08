@@ -1454,7 +1454,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/land/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/xiaomi/land/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/xiaomi/land/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/xiaomi/land/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/xiaomi/land/proprietary/lib/libminui.so:system/lib/libminui.so \
+    vendor/xiaomi/land/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+    vendor/xiaomi/land/proprietary/lib64/libminui.so:system/lib64/libminui.so \
+    vendor/xiaomi/land/proprietary/lib64/libtida.so:system/lib64/libtida.so \
+    vendor/xiaomi/land/proprietary/lib64/libxml2.so:system/lib64/libxml2.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/mmi_fingerprint.so:system/vendor/lib/mmi_fingerprint.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libmmi.so:system/vendor/lib64/libmmi.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/mmi_fingerprint.so:system/vendor/lib64/mmi_fingerprint.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
